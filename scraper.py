@@ -16,7 +16,7 @@ def get_item(ancestor, selector, attribute=None, return_list=False):
 
 selectors = {
     'author': ["span.user-post__author-name"],
-    'recomendation': ['span.user-post__author-recomendation > em'],
+    'recommendation': ['span.user-post__author-recomendation > em'],
     'stars': ['span.user-post__score-count'],
     'content': ['div.user-post__text'],
     'useful': ['button.vote-yes > span'],
